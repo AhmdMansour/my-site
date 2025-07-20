@@ -26,8 +26,7 @@ nav ul li a:hover { color: #00bfff; }
   align-items: center;
   justify-content: center;
   gap: 2rem;
-  background: url('https://images.pexels.com/photos/110854/pexels-photo-110854.jpeg?auto=compress&w=1200&q=80') no-repeat center center;
-  background-size: cover;
+  background: #001f4d;
   margin-top: 40px;
   padding: 2rem 0;
   overflow: hidden;
@@ -36,7 +35,8 @@ nav ul li a:hover { color: #00bfff; }
   content: "";
   position: absolute;
   inset: 0;
-  background: rgba(10, 20, 40, 0.55);
+  /* No overlay needed without a photo, but keep for consistency */
+  background: rgba(10, 20, 40, 0.0);
   z-index: 1;
 }
 .hero-content {
